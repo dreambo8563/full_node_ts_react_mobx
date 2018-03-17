@@ -1,0 +1,26 @@
+.clear{ clear:both; overflow:hidden;}
+.clearfix:after{  content:"\20"; display:block; clear:both; font-size:0; height:0; overflow:hidden;}
+.clearfix{zoom:1;}
+.left{ float:left;}
+.right{ float:right;}
+.exampleInput .ant-input {
+    width: 200px;
+    margin: 0 8px 8px 0;
+}
+.dan{
+    color: red;
+}
+.leveTable{
+    margin-bottom: 20px;
+}
+.leveTable table,.leveTable thead>tr>th{
+    text-align: center;
+}
+.pagination{
+    margin-bottom: 20px;
+}
+.leaveSelect{
+    float: left;
+    margin-left: 20px;
+    width: 100px;
+}

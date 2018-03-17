@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>             <html class="ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>                <html class="ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>                <html class="ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]>                <html class="ie9" lang="en"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <title>Tools后台管理系统</title>
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <style>
+        body {
+            background: #f4b267;
+            margin: 0;
+            padding: 0;
+        }
+
+        #app {
+            height: 100%
+        }
+
+        .loaders-container {
+            position: fixed;
+            z-index: -1;
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            font-size: 0;
+        }
+
+        .loaders-container .container {
+            position: absolute;
+            box-sizing: border-box;
+            padding: 30px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .circle {
+            box-sizing: border-box;
+            width: 160px;
+            height: 160px;
+            border-radius: 100%;
+            border: 20px solid rgba(255, 255, 255, 0.2);
+            border-top-color: #FFF;
+            animation: spin 1s infinite linear;
+        }
+
+        @keyframes spin {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="loaders-container">
+
+        <div class="container">
+            <div class="circle"></div>
+        </div>
+    </div>
+    <div id="app"></div>
+    <!-- <script async src="https://webapi.amap.com/maps?v=1.3&key=6679c31c6ce56541282fa2d07829bae9"></script> -->
+</body>
+
+</html>

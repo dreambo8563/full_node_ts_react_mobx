@@ -1,0 +1,298 @@
+.reportBox{
+    max-width: 640px;
+    margin: 0 auto;
+}
+.dataWidth{
+    width: 150px;
+}
+.alignItem{
+    display: flex;
+    align-items: center;
+} 
+.itemSpace{
+    width: 150px;
+    margin: 0 20px;
+}
+.wordBox,.stageBox{
+    margin: 20px 0;
+    background: #fffce7;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.stage{
+    display: block;
+    margin: 20px 0 -22px 14px;
+}
+.wordBox>span{
+    color: #000;
+    display: block;
+    text-align: center;
+}
+.wordBox>span:first-child,.stageBox span:first-child{
+    text-align: left;
+    padding-left: 14px;
+    margin-bottom: 20px;
+}
+.wordBox>span>b,.stage>b{
+    color:#32c487;
+    font-size: 18px;
+    padding: 0 4px;
+}
+.main{
+    border:1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+.main>span{
+    display: block;
+    padding:20px 0 0 14px;
+    margin-bottom: -30px;
+}
+.noneData{
+    display: flex;
+    font-size: 22px;
+    justify-content: center;
+    padding: 20px 0;
+    margin-top: 100px;
+}
+.ph > div {
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-right: 1px solid #fff;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+  }
+  .ph > div h3 {
+    padding: 2px;
+  }
+  .br {
+    border-right: 1px solid #fff;
+  }
+  .learningStageBox {
+    position: relative;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 20px 2% 0 2%;
+    margin: 0 auto 20px;
+    font-size: 0.5em;
+  }
+  .learningStageBox > div {
+    width: 20%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .learningStageBox > div:nth-last-child(1) {
+    border-right: 1px solid #fff;
+  }
+  .learningStageBox ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .learningStageBox ul li {
+    width: 100%;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative;
+    border-top: 1px solid #fff;
+  }
+  .learningStageBox h3,
+  .learningStageBox p {
+    text-align: center;
+  }
+  .learningStageBox .beginner > div,
+  .learningStageBox .beginner ul > li {
+    background-color: #b1b1b1;
+  }
+  .learningStageBox .beginner > div {
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-right: 1px solid #fff;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+  }
+  .learningStageBox .beginner > div h3 {
+    padding: 2px;
+  }
+  .learningStageBox .elementry > div,
+  .learningStageBox .elementry ul > li {
+    background-color: #fdbd41;
+  }
+  .learningStageBox .elementry > div {
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-right: 1px solid #fff;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+  }
+  .learningStageBox .elementry > div h3 {
+    padding: 2px;
+  }
+  .learningStageBox .intermediate > div,
+  .learningStageBox .intermediate ul > li {
+    background-color: #fca241;
+  }
+  .learningStageBox .intermediate > div {
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-right: 1px solid #fff;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+  }
+  .learningStageBox .intermediate > div h3 {
+    padding: 2px;
+  }
+  .learningStageBox .advanced > div,
+  .learningStageBox .advanced ul > li {
+    background-color: #f6843d;
+  }
+  .learningStageBox .advanced > div {
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-right: 1px solid #fff;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+  }
+  .learningStageBox .advanced > div h3 {
+    padding: 2px;
+  }
+  .learningStageBox .bilingualStar > div,
+  .learningStageBox .bilingualStar ul > li {
+    background-color: #ee6d1c;
+  }
+  .learningStageBox .bilingualStar > div {
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-right: 1px solid #fff;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+  }
+  .learningStageBox .bilingualStar > div h3 {
+    padding: 2px;
+  }
+  .learningStageBox .bilingualStar > div {
+    border-right: none;
+  }
+  .learningStageBox ul{
+      padding: 0;
+      margin: 0;
+  }
+  .learningStageBox li{
+      list-style: none;
+  }
+  .learningStageBox .l0 {
+    height: 18px;
+    border-right: 1px solid #fff;
+    border-left: none;
+  }
+  .learningStageBox .l1 {
+    padding-top: 5px;
+    height: 21px;
+    border-right: 1px solid #fff;
+  }
+  .learningStageBox .l2 {
+    padding-top: 5px;
+    height: 24px;
+    border-right: 1px solid #fff;
+  }
+  .learningStageBox .l3 {
+    padding-top: 5px;
+    height: 27px;
+    border-right: 1px solid #fff;
+  }
+  .learningStageBox .l4 {
+    padding-top: 5px;
+    height: 30px;
+    border-right: 1px solid #fff;
+  }
+  .learningStageBox .l5 {
+    padding-top: 5px;
+    height: 33px;
+    border-right: 1px solid #fff;
+  }
+  .learningStageBox .l6 {
+    padding-top: 5px;
+    height: 36px;
+    border-right: 1px solid #fff;
+  }
+  .learningStageBox .l7 {
+    padding-top: 5px;
+    height: 39px;
+    border-right: 1px solid #fff;
+  }
+  .learningStageBox .l8 {
+    padding-top: 5px;
+    height: 42px;
+    border-right: 1px solid #fff;
+  }
+  .learningStageBox .l9 {
+    padding-top: 5px;
+    height: 45px;
+    border-right: 1px solid #fff;
+  }
+  .learningStageBox .l10 {
+    padding-top: 5px;
+    height: 48px;
+    border-right: 1px solid #fff;
+  }
+  .learningStageBox .l11 {
+    padding-top: 5px;
+    height: 51px;
+    border-right: 1px solid #fff;
+  }
+  .learningStageBox .l12 {
+    padding-top: 5px;
+    height: 54px;
+    border-right: 1px solid #fff;
+  }
+  .learningStageBox .l13 {
+    padding-top: 5px;
+    height: 57px;
+    border-right: 1px solid #fff;
+  }
+  .learningStageBox .l14 {
+    padding-top: 5px;
+    height: 60px;
+    border-right: 1px solid #fff;
+  }
+  .learningStageBox .l15 {
+    padding-top: 5px;
+    height: 63px;
+  }
+  .learningStageBox .person i {
+    position: absolute;
+    top: -33px;
+    left: -10%;
+    display: block;
+    width: 120%;
+    height: 30px;
+    background: url("../../../../../assets/img/people.png") center center no-repeat;
+    background-size: contain;
+  }
+  

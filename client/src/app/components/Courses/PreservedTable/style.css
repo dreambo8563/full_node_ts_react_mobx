@@ -1,0 +1,8 @@
+.preservedTable,.preservedTable .ant-table{
+    font-size: 12px;
+}
+.manageBtnBd button{
+    font-size: 13px;
+    padding: 0 4px;
+    margin: 3px;
+}

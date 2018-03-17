@@ -1,0 +1,43 @@
+:global #app {
+  height: 100%;
+  overflow-x: hidden;
+}
+:global i{
+	font-style: normal;
+}
+:global .b-r-3{
+	border-radius: 3px;
+	padding: 2px 4px;
+	box-sizing: border-box;
+	text-align: center;
+}
+:global .f-color{
+	color: #fff;
+}
+:global  .bg-red{
+	background-color: red;
+}
+:global  .bg-yellow{
+	background-color: yellow;
+}
+:global  .bg-blue{
+	background-color: blue;
+}
+:global  .bg-blue-sky{
+	background-color: skyblue;
+}
+:global  .bg-orange{
+	background-color: orange;
+}
+:global  .bg-green{
+	background-color: green;
+}
+:global  .bg-sea-green{
+	background-color: seagreen;
+}
+:global  .bg-purple{
+	background-color: purple;
+}
+:global .ant-table{
+	font-size: 13px;
+}
